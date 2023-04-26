@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mod5.Exercise02">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center">
+
+            <Label Text="Quantity:" />
+            <Stepper Value="1" Minimum="1" Maximum="10" Increment="1" ValueChanged="OnStepperValueChanged" />
+            <Label Text="1" x:Name="quantityLabel" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

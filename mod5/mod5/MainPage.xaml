@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="mod5.MainPage">
+
+    <StackLayout>
+        
+        <Button Text="Exercise01: SwitchControl" Clicked="Exercise01"></Button>
+        <Button Text="Exercise02: StepperControl" Clicked="Exercise02"></Button>
+        <Button Text="Exercise03: DateAndTimeControl" Clicked="Exercise03"></Button>
+        
+    </StackLayout>
+
+</ContentPage>
